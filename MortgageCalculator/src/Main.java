@@ -15,6 +15,7 @@ public class Main {
         if (principle >=1000 && principle <= 1000_000){
             break;
         }else {
+
             System.out.print("Enter a value between 1,000 and 1000,000");
         }
         }
@@ -24,7 +25,7 @@ public class Main {
         if (interest > 0 && interest <=30){
             break;
         }else {
-            System.out.print("Enter a value greater than 0 and less than or equal to 30");
+            System.out.println("Enter a value greater than 0 and less than or equal to 30");
         }
         }
         while (true){
